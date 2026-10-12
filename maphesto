@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source /Users/shivu/Desktop/maphesto/.venv/bin/activate
+exec /Users/shivu/Desktop/maphesto/.venv/bin/python3 \
+    "$(dirname "$0")/maphesto.py" "$@"
